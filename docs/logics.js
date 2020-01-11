@@ -3,12 +3,12 @@ const passwordButton = document.querySelector('#passCheck');
 
 const ENTER_KEY = 13;
 
-passwordButton.addEventListener('click', ()=>{
+passwordButton.addEventListener('click', () => {
     validateForm();
 });
 
 passwordField.addEventListener('keyup', event => {
-    if(event.isComposing || event.keyCode === 229) {
+    if (event.isComposing || event.keyCode === 229) {
         return;
     } else if (event.keyCode === ENTER_KEY) {
         validateForm();
@@ -32,7 +32,7 @@ function checkIfPasswordCorrect(passwordCandidate) {
 }
 
 function showResult() {
-    alert('Success');
+    window.location = 'result.html'
 }
 
 function showFailure() {
@@ -41,4 +41,8 @@ function showFailure() {
 
 function clearField(fieldToClear) {
     fieldToClear.value = '';
+}
+
+function loadInfoText() {
+    
 }
