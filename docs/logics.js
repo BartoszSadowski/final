@@ -36,7 +36,7 @@ function showResult() {
 }
 
 function showFailure() {
-    alert('Wrong password');
+    alert('Hasło niepoprawne. Spróbuj ponownie');
 }
 
 function clearField(fieldToClear) {
