@@ -9,8 +9,19 @@ html, body {
     padding: 20px;
 }
 
+.bold {
+    font-weight: bold;
+    color: rgb(230, 117, 72);
+    text-align: center;
+}
+
 .card {
     width: 80%;
     max-width: 600px;
     margin: auto;
+}
+
+.italic {
+    font-style: italic;
+    color: rgb(8, 115, 151);
 }
