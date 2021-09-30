@@ -21,6 +21,11 @@ html, body {
     margin: auto;
 }
 
+.card-body {
+    display: flex;
+    flex-flow: column;
+}
+
 .italic {
     font-style: italic;
     color: rgb(8, 115, 151);

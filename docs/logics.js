@@ -27,8 +27,8 @@ function validateForm() {
 }
 
 function checkIfPasswordCorrect(passwordCandidate) {
-    const passwordReal = 'sonders';
-    return passwordCandidate === passwordReal;
+    const passwordReal = 'mors';
+    return passwordCandidate.toLowerCase() === passwordReal;
 }
 
 function showResult() {
